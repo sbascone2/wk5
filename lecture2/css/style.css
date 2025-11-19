@@ -1,4 +1,9 @@
-  section{
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section{
     width: 90%;
     margin: auto;
     padding: 10px;
@@ -61,7 +66,7 @@
   padding: 15px;
 }
 
-div:nth-child(even) img {
+.grid > div:nth-child(even) img {
   filter: grayscale();
   border: 25px solid;
   box-sizing: border-box;
