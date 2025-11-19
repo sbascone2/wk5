@@ -100,11 +100,16 @@
 
 
 @media (prefers-reduced-motion: reduce) {
-  .grid div {
+.grid div,
+  .grid div:hover,
+  .grid img,
+  .grid dl {
     transition: none !important;
+    animation: none !important;
+    transform: none !important;
   }
 
-
+  /* You already had this, keep it */
   .gallery img {
     transform: none !important;
     transition: none !important;
