@@ -125,3 +125,11 @@
     border: 1px solid #EB5B00;
   }
 }
+
+/* Fix tablet overflow */
+@media (max-width: 1024px) {
+  .gallery img {
+    max-width: 45%;
+    height: auto;
+  }
+}
